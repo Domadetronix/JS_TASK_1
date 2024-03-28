@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    background-color: gray;
+    width: 600px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+.search-block {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.search-input {
+    font-size: 48px;
+    width: 100%;
+}
+
+
+.repo-preview {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    height: 45px;
+    background-color: #E3E3E3;
+    border: 1px solid black;
+
+    &:hover {
+        background-color: #65CDF9;
+    }
+}
+
+.result-container {
+    width: 500px;
+}
