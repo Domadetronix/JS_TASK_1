@@ -1,5 +1,10 @@
 body {
   text-align: center;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
 }
 
 .container {
@@ -16,8 +21,15 @@ body {
 }
 
 .search-input {
+  margin-top: 50px;
   font-size: 48px;
   width: 100%;
+}
+
+.search-results {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .repo-preview {
@@ -27,6 +39,7 @@ body {
   height: 45px;
   background-color: #E3E3E3;
   border: 1px solid black;
+  font-size: 30px;
 }
 .repo-preview:hover {
   background-color: #65CDF9;
